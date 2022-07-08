@@ -1,0 +1,6 @@
+---
+deployment:
+	tasks:
+		- export DEPLOYPATH=/home/running/repositories/rrc-website/
+		- /bin/cp *.html $DEPLOYPATH
+    - /bin/cp -R assets $DEPLOYPATH
