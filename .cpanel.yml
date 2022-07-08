@@ -1,7 +1,7 @@
 ---
 deployment:
 	tasks:
-    - export DEPLOYPATH=/home/running/public_html/
-    - /bin/cp /home/running/repositories/rrc-website/*.html $DEPLOYPATH
-    - export DEPLOYPATH=/home/running/public_html/assets
-    - /bin/cp -r /home/running/repositories/rrc-website/assets $DEPLOYPATH
+    -export DEPLOYPATH=/home/running/public_html/
+    -/bin/cp /home/running/repositories/rrc-website/*.html $DEPLOYPATH
+    -export DEPLOYPATH=/home/running/public_html/assets
+    -/bin/cp -r /home/running/repositories/rrc-website/assets $DEPLOYPATH
