@@ -2,5 +2,4 @@
 deployment:
 	tasks:
     - export DEPLOYPATH=/home/running/public_html/
-    - /bin/cp *.html $DEPLOYPATH
-    - /bin/cp -R assets $DEPLOYPATH
+    - /bin/cp -r * $DEPLOYPATH
